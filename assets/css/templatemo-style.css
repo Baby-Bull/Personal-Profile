@@ -726,73 +726,34 @@ p.des_para{
     opacity: 0;
     transition: 1s;
     overflow: hidden;
-    margin: 5px 10px 10px 20px;
+    margin: 10px;
+    margin-left: 25px;
 }
 .facebook a{
     color: white;
     background: gray;
-    width: 30%;
+    width: 35%;
     transition: 1s;
-    max-height: 40px;
+    height: 50px;
     justify-content: space-between;
     border-radius:20px;
     border: 2px white solid;
 }
 .facebook a:hover{
-    width: 70%;
+    width: 60%;
+    height: 50px;
 }
 .facebook a:hover p.des_para{
     opacity: 1;
 }
 .facebook a i {
-    font-size: 20px;
-    margin: 6px 15px 0px 0px;
+    font-size: 25px;
+    margin: 10px
+}
+.facebook p.contactTitle {
+    margin: 10px;
 }
 
-section.contact-me {
-    border-bottom: none;
-}
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact {
-    text-align: center;
-}
 
 @media screen and (max-width: 1680px) {
     .menu {
@@ -821,6 +782,7 @@ section.contact-me {
     .menu .image {
         margin-top: 60px;
     }
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -842,6 +804,16 @@ section.contact-me {
     .left-image-post .white-button {
         margin-top: 25px;
     }
+    .facebook a {
+        width: 185px;
+        transition: 0.3s;
+    }
+    .facebook a:hover {
+        width: 120%;
+    }
+    p.des_para {
+        transition: 0.2s;
+    }
 
 }
 
@@ -853,6 +825,16 @@ section.contact-me {
 @media screen and (max-width: 1280px) and (min-width: 846px) {
     .menu {
         width: 25%;
+    }
+    .facebook a {
+        width: 185px;
+        transition: 0.3s;
+    }
+    .facebook a:hover {
+        width: 120%;
+    }
+    p.des_para {
+        transition: 0.2s;
     }
 }
 
@@ -924,6 +906,16 @@ section.contact-me {
     }
     .isotope-toolbar {
         margin-bottom: 20px;
+    }
+    .facebook a {
+        width: 185px;
+        transition: 0.3s;
+    }
+    .facebook a:hover {
+        width: 120%;
+    }
+    p.des_para {
+        transition: 0.2s;
     }
 }
 
